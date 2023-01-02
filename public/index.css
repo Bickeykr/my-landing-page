@@ -6,11 +6,15 @@
    width: 150px;
  }
 
+ 
+
+ 
+
+ 
  body{
-   background-color: aliceblue;
+  margin: 0;
  }
 
- nav{
-   background-color: white;
+ .test{
+  width: 150px;
  }
- 

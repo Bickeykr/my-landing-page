@@ -1,20 +1,20 @@
- h1{
-    color: red;
- }
-
- img{
-   width: 150px;
- }
-
  
-
- 
-
  
  body{
   margin: 0;
  }
 
- .test{
-  width: 150px;
+
+/* NavBar.jsx styling */
+ .navDiv{
+  background-color: #effcff;
+  box-shadow: 0px 0px 5px 5px rgb(195, 194, 194);
+
+ }
+
+ 
+.navLogo{
+  height: 100px;
+  margin-left: 5vw;
+  
  }

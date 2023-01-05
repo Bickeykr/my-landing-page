@@ -1,20 +1,14 @@
- 
- 
- body{
+body {
   margin: 0;
- }
-
+}
 
 /* NavBar.jsx styling */
- .navDiv{
+.navDiv {
   background-color: #effcff;
-  box-shadow: 0px 0px 5px 5px rgb(195, 194, 194);
+  box-shadow: 0px 0px 5px 3px rgb(220, 219, 219);
+}
 
- }
-
- 
-.navLogo{
-  height: 100px;
+.navLogo {
+  height: 80px;
   margin-left: 5vw;
-  
- }
+}

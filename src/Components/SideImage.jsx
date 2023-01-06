@@ -1,9 +1,9 @@
 import React from 'react';
 
-function SideImage() {
+function SideImage(props) {
   return (
-    <div>
-    <img className='HeroImage' src="../images/download.png" alt="Presentation" />
+    <div className='sideImage'>
+      <img  src={props.url} alt="Presentation" />
     </div>
   )
 }

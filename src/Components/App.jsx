@@ -11,7 +11,7 @@ function App() {
             <div className='container'>
 
                 <SideText
-                    headline="Now send money from india to Nepal & Nepal to india with few chicks"
+                    headline=" Send money from india  to Nepal    & Nepal to india easy"
                     supportingCopy="Smart ruppe has brought a service using which you can send money to from indian account to Nepali account and vice versa easily and quickly"
                     buttonName="Get Started"
                 />

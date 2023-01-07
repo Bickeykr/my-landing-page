@@ -1,3 +1,9 @@
+/* @media (min-width: 768px) {
+  .container {
+    display: flex;
+  }
+} */
+
 body {
   margin: 0;
 }
@@ -6,6 +12,7 @@ body {
 .navDiv {
   background-color: #effcff;
   box-shadow: 0px 0px 5px 3px rgb(220, 219, 219);
+  width: 100%;
 }
 
 .navLogo {
@@ -16,8 +23,24 @@ body {
 /* NavBar.jsx styling ends*/
 
 /* SideText.jsx and SideImage.jsx styling starts */
-.container{
-  width: 100%;
+.container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
- 
+
+.sideText {
+  flex-basis: 40%;
+  margin: 20px;
+  border: 1px black solid;
+}
+
+.sideImage {
+  flex-basis: 40%;
+  margin: 20px;
+  border: 1px black solid;
+}
+
+.sideImage img {
+  width: 50vw;
+}

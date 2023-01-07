@@ -1,15 +1,15 @@
 import React from 'react';
 import CircleLogo from '../images/SmartRuppeLogo.png';
 
- 
+
 
 function Navbar() {
     return (
-        <div>
+        <div className='navDiv'>
             <nav>
-                <div  className='navDiv'>
-                    <img className='navLogo' src={CircleLogo} alt="SmartRuppeLogo" />
-                 </div>
+
+                <img className='navLogo' src={CircleLogo} alt="SmartRuppeLogo" />
+ 
             </nav>
         </div>
 

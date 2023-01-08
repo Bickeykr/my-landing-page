@@ -44,3 +44,10 @@ body {
 .sideImage img {
   width: 50vw;
 }
+.InFlagImg {
+    /* border: 1px black solid; */
+}
+.flagImg {
+  width: 50px;
+  /* border: 1px black solid; */
+}

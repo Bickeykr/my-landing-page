@@ -4,6 +4,9 @@ function SideImage(props) {
   return (
     <div className='sideImage'>
       <img  src={props.url} alt="Presentation" />
+      
+  
+
     </div>
   )
 }

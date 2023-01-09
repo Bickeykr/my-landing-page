@@ -6,7 +6,10 @@
 
 body {
   margin: 0;
+  border: 15px solid orange;
 }
+
+ 
 
 /* NavBar.jsx styling starts*/
 .navDiv {
@@ -27,27 +30,28 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .sideText {
   flex-basis: 40%;
   margin: 20px;
   border: 1px black solid;
-}
+  flex: 1;
+ }
 
 .sideImage {
   flex-basis: 40%;
   margin: 20px;
   border: 1px black solid;
+  flex: 1.5;
 }
 
 .sideImage img {
-  width: 50vw;
+  width: 40rem;
 }
-.InFlagImg {
-    /* border: 1px black solid; */
-}
+ 
 .flagImg {
-  width: 50px;
+  width: 2rem;
   /* border: 1px black solid; */
 }

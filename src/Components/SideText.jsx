@@ -8,9 +8,9 @@ function SideText(props) {
 
         <div className='sideText'>
             <h1>Send money
-                <img className='InFlagImg' src={IndianFlag} alt="IndianFlag" />  to
+                <img className='flagImg' src={IndianFlag} alt="IndianFlag" />  to
                 <img className='flagImg' src={NepalFlag} alt="NepalFlag" />   &  <img className='flagImg' src={NepalFlag} alt="NepalFlag" />  to
-                <img className='InFlagImg' src={IndianFlag} alt="IndianFlag" /> easy </h1>
+                <img className='flagImg' src={IndianFlag} alt="IndianFlag" /> easy </h1>
 
             <p>{props.supportingCopy}</p>
             <button type="submit" >{props.buttonName}</button>

@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import SideText from './SideText';
 import SideImage from './SideImage';
 import HeroImage from '../images/download.png';
- 
+
 function App() {
     return (
         <div>
@@ -11,7 +11,7 @@ function App() {
             <div className='container'>
 
                 <SideText
-                    
+
                     supportingCopy="Smart ruppe has brought a service using which you can send money to from indian account to Nepali account and vice versa easily and quickly"
                     buttonName="Get Started"
                 />
@@ -21,8 +21,8 @@ function App() {
                 />
 
             </div>
-            <input/> 
-             
+
+
         </div>
     )
 }

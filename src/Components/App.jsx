@@ -12,7 +12,7 @@ function App() {
 
                 <SideText
 
-                    supportingCopy="Smart ruppe has brought a service using which you can send money to from indian account to Nepali account and vice versa easily and quickly"
+                    supportingCopy="Smart ruppe has brought a service using which you can send money to from indian account to Nepali account and vice versa easily and quickly using your phone only."
                     buttonName="Get Started"
                 />
 

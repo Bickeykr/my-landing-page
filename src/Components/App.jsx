@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import SideText from './SideText';
 import SideImage from './SideImage';
-import HeroImage from '../images/download.png';
+import HeroImage from '../images/HeroImage.png';
 
 function App() {
     return (

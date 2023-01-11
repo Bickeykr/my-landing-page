@@ -7,15 +7,25 @@ function SideText(props) {
     return (
 
         <div className='sideText'>
-            <h1>Send money
-                <img className='flagImg' src={NepalFlag} alt="NepalFlag" /> to
-                <img className='flagImg' src={IndianFlag} alt="IndianFlag" / >   &  <img className='flagImg' src={IndianFlag} alt="IndianFlag" />   to
-                <img className='flagImg' src={NepalFlag} alt="NepalFlag" />easy
-                 </h1>
+            <div className='heroText'>
+                <h1>Send money
+                    Nepal to  India &  India     to
+                    Nepal  easy easy
 
-            <p>{props.supportingCopy}</p>
-            <button type="submit" >{props.buttonName}</button>
+                    {/* <img className='flagImg' src={NepalFlag} alt="NepalFlag" /> */}
 
+                    {/* <img className='flagImg' src={IndianFlag} alt="IndianFlag" />    */}
+
+
+                    {/* <img className='flagImg' src={IndianFlag} alt="IndianFlag" /> */}
+
+                    {/* <img className='flagImg' src={NepalFlag} alt="NepalFlag" /> */}
+                   
+                </h1>
+
+                <p>{props.supportingCopy}</p>
+                <button type="submit" >{props.buttonName}</button>
+            </div>
         </div>
 
     )

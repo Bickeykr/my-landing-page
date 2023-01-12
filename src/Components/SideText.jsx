@@ -10,17 +10,13 @@ function SideText(props) {
             <div className='heroText'>
                 <h1>Send money
                     Nepal to  India &  India     to
-                    Nepal  easy easy
+                    Nepal  easy
 
-                    {/* <img className='flagImg' src={NepalFlag} alt="NepalFlag" /> */}
+                    <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
+                    <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
 
-                    {/* <img className='flagImg' src={IndianFlag} alt="IndianFlag" />    */}
 
 
-                    {/* <img className='flagImg' src={IndianFlag} alt="IndianFlag" /> */}
-
-                    {/* <img className='flagImg' src={NepalFlag} alt="NepalFlag" /> */}
-                   
                 </h1>
 
                 <p>{props.supportingCopy}</p>

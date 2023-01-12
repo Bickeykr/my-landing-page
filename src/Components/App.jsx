@@ -1,8 +1,16 @@
 import React from 'react';
+
+//components
+
 import Navbar from './Navbar';
 import SideText from './SideText';
+import About from './About';
+
+//images
 import SideImage from './SideImage';
 import HeroImage from '../images/HeroImage.png';
+import AboutImg from '../images/about1.svg';
+
 
 function App() {
     return (
@@ -21,8 +29,16 @@ function App() {
                 />
 
             </div>
+            <div className='container'>
+                <About
+                    fontSize={{ fontSize: "3rem" }}
+                    about="About"
+                    paragraph="Now without any troble you can send or get Nepali money or indian money in exchange of Nepali money or indian money with few clicks on your phone in you personal bank account watch this Detailed video to know more"
+                />
 
-
+                <SideImage
+                    url={AboutImg}
+                />  </div>
         </div>
     )
 }

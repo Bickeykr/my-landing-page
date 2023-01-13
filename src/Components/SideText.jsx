@@ -8,9 +8,8 @@ function SideText(props) {
 
         <div className='sideText'>
             <div className='heroText'>
-                <h1>Send money
-                    Nepal to  India &  India     to
-                    Nepal  easy
+                <h1>Send money with few clicks on your phone
+                     
 
                     <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
                     <img className='flagImg' src={IndianFlag} alt="IndianFlag" />

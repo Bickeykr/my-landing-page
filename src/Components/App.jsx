@@ -20,7 +20,7 @@ function App() {
 
                 <SideText
 
-                    supportingCopy="Smart ruppe has brought a service using which you can send money to from indian account to Nepali account and vice versa easily and quickly using your phone only."
+                    supportingCopy="Smart ruppe has brought a service using which you can send money to from Indian account to Nepali account and vice versa easily and quickly using your phone only."
                     buttonName="Get Started"
                 />
 
@@ -33,7 +33,9 @@ function App() {
                 <About
                     fontSize={{ fontSize: "3rem" }}
                     about="About"
-                    paragraph="Now without any troble you can send or get Nepali money or indian money in exchange of Nepali money or indian money with few clicks on your phone in you personal bank account watch this Detailed video to know more"
+                    paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more from India or Nepal.
+                    
+                    Now without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
                 />
 
                 <SideImage

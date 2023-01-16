@@ -104,3 +104,12 @@ body {
 }
 
 /* SideImage.jsx styling ends */
+
+/* benefits section styling starts */
+.benefitsHeading{
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* benefits section styling ends */

@@ -10,12 +10,24 @@ import About from './About';
 import SideImage from './SideImage';
 import HeroImage from '../images/HeroImage.png';
 import AboutImg from '../images/about1.svg';
+import Feature from '../images/feature_3.png';
+
+//Metarial UI components
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
+{/* <CardActionArea>
+</CardActionArea> */}
 
 
 function App() {
     return (
         <div>
             <Navbar />
+            {/* main section starts  */}
+
             <div className='container'>
 
                 <SideText
@@ -29,6 +41,10 @@ function App() {
                 />
 
             </div>
+            {/* main section ends  */}
+
+            {/* about section starts  */}
+
             <div className='container'>
                 <About
                     fontSize={{ fontSize: "3rem" }}
@@ -40,7 +56,72 @@ function App() {
 
                 <SideImage
                     url={AboutImg}
-                />  </div>
+                />
+            </div>
+            {/* about section ends  */}
+
+
+            {/* benefits section starts  */}
+
+            <h2 className='benefitsHeading'>Money Exchange just got easy</h2>
+            <div className='container'>
+                <Card sx={{ maxWidth: 345 }}>
+
+                    <CardMedia
+                        component="img"
+                        height="340"
+                        image={Feature}
+                        alt="green iguana"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Send money to other
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            You can send Indian money to other bank account(Indian) by transferring from Nepali account
+                        </Typography>
+                    </CardContent>
+
+                </Card>
+                <Card sx={{ maxWidth: 345 }}>
+
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image={HeroImage}
+                        alt="green iguana"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Send money to other
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            You can send Indian money to other bank account(Indian) by transferring from Nepali account
+                        </Typography>
+                    </CardContent>
+
+                </Card>
+                <Card sx={{ maxWidth: 345 }}>
+
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image={HeroImage}
+                        alt="green iguana"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            Send money to other
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            You can send Indian money to other bank account(Indian) by transferring from Nepali account
+                        </Typography>
+                    </CardContent>
+
+                </Card>
+            </div>
+            {/* benefits section  ends  */}
+
         </div>
     )
 }

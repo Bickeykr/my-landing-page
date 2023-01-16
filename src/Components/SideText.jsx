@@ -9,15 +9,9 @@ function SideText(props) {
         <div className='sideText'>
             <div className='heroText'>
                 <h1>Send money with few clicks on your phone
-                     
-
                     <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
                     <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
-
-
-
                 </h1>
-
                 <p>{props.supportingCopy}</p>
                 <button type="submit" >{props.buttonName}</button>
             </div>

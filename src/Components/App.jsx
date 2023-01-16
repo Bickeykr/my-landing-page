@@ -1,6 +1,6 @@
 import React from 'react';
 
-//components
+//local Components
 
 import Navbar from './Navbar';
 import SideText from './SideText';
@@ -10,7 +10,9 @@ import About from './About';
 import SideImage from './SideImage';
 import HeroImage from '../images/HeroImage.png';
 import AboutImg from '../images/about1.svg';
-import Feature from '../images/feature_3.png';
+import Benefit1 from '../images/benefit1.svg';
+import Benefit2 from '../images/benefit2.svg';
+import Benefit3 from '../images/benefit3.svg';
 
 //Metarial UI components
 import Card from '@mui/material/Card';
@@ -28,7 +30,7 @@ function App() {
             <Navbar />
             {/* main section starts  */}
 
-            <div className='container'>
+            <div className='flex-container'>
 
                 <SideText
 
@@ -45,7 +47,7 @@ function App() {
 
             {/* about section starts  */}
 
-            <div className='container'>
+            <div className='flex-container'>
                 <About
                     fontSize={{ fontSize: "3rem" }}
                     about="About"
@@ -63,64 +65,69 @@ function App() {
 
             {/* benefits section starts  */}
 
-            <h2 className='benefitsHeading'>Money Exchange just got easy</h2>
-            <div className='container'>
-                <Card sx={{ maxWidth: 345 }}>
+            <h1 className='benefitsHeading'>Money Exchange Just got easy</h1>
 
+            <div className='flex-container1'>
+                <Card className='card card1' >
                     <CardMedia
                         component="img"
-                        height="340"
-                        image={Feature}
-                        alt="green iguana"
+                        height="200"
+                        image={Benefit1}
+                        alt="benefit1"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Send money to other
+                            Send money to others
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            You can send Indian money to other bank account(Indian) by transferring from Nepali account
+                            Now send money to  India from your Nepali account using mobile banking
                         </Typography>
                     </CardContent>
-
                 </Card>
-                <Card sx={{ maxWidth: 345 }}>
 
+                <Card className='card card2'  >
                     <CardMedia
                         component="img"
-                        height="140"
-                        image={HeroImage}
-                        alt="green iguana"
+                        height="200"
+                        image={Benefit2}
+                        alt="benefit2"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Send money to other
-                        </Typography>
+                            Get money from others                        </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            You can send Indian money to other bank account(Indian) by transferring from Nepali account
+                            Now get money  from India in your Nepali account using mobile banking
                         </Typography>
                     </CardContent>
-
                 </Card>
-                <Card sx={{ maxWidth: 345 }}>
 
+                <Card className='card card3' >
                     <CardMedia
                         component="img"
-                        height="140"
-                        image={HeroImage}
-                        alt="green iguana"
+                        height="200"
+                        image={Benefit3}
+                        alt="benefit3"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Send money to other
-                        </Typography>
+                            Pay to merchants                        </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            You can send Indian money to other bank account(Indian) by transferring from Nepali account
+                            Conduct businesses without worring about the mode of payment.
                         </Typography>
                     </CardContent>
-
                 </Card>
+
             </div>
             {/* benefits section  ends  */}
+
+            {/* features section  starts  */}
+
+            <h1 className='benefitsHeading'>Why Smart ruppe</h1>
+
+            <div className='flex-container1'>
+            
+            </div>
+            {/* features section  ends  */}
 
         </div>
     )

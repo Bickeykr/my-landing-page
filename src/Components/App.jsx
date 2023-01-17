@@ -53,9 +53,8 @@ function App() {
                 <About
                     fontSize={{ fontSize: "3rem" }}
                     about="About"
-                    paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more from India or Nepal.
-                    
-                    Now without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
+
+                    paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more from India or Nepal. Now without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
                 />
 
                 <SideImage
@@ -134,6 +133,7 @@ function App() {
                 <Feature icon={faShieldHalved}
                     label="Secure"
                     text="Now no worries about security, Safe transfer is guarantee"
+                     
 
                 />
                 <Feature icon={faMoneyBillTransfer}
@@ -145,8 +145,8 @@ function App() {
             {/* features section  ends  */}
 
             {/* Footer section starts */}
-            <Footer 
-            
+            <Footer
+
             />
             {/* Footer section ends */}
 

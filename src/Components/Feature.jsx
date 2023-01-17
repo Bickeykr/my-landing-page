@@ -6,7 +6,7 @@ function Feature(props) {
         <div className='featureDiv' > 
             <FontAwesomeIcon icon={props.icon} className="featureIcon"></FontAwesomeIcon>
             <h3 className='featureHeading'>{props.label}</h3>
-            <p className='featureText'>{props.text}</p>
+            <p className='paragraphText' style={{textAlign: "center"}}>{props.text}</p>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import CircleLogo from '../images/SmartRuppeLogo-removebg.png';
+import SmartRuppeLogo from '../images/SmartRuppeLogo-removebg.png';
 
 
 
@@ -7,7 +7,8 @@ function Navbar() {
     return (
         <div className='navDiv'  >
             <nav>
-                <img className='navLogo' src={CircleLogo} alt="SmartRuppeLogo" />
+                <img className='navLogo' src={SmartRuppeLogo} alt="SmartRuppeLogo" />
+                
             </nav>
         </div>
 

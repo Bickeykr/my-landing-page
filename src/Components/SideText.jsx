@@ -12,7 +12,7 @@ function SideText(props) {
                     <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
                     <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
                 </h1>
-                <p>{props.supportingCopy}</p>
+                <p className='paragraphText'>{props.supportingCopy}</p>
                 <button type="submit" >{props.buttonName}</button>
             </div>
         </div>

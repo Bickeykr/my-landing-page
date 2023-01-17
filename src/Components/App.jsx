@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import SideText from './SideText';
 import About from './About';
 import Feature from './Feature';
+import Footer from './Footer';
 
 //images
 import SideImage from './SideImage';
@@ -23,7 +24,8 @@ import Typography from '@mui/material/Typography';
 
 //Fontawesome 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faBolt, faSolid, faShieldHalved, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
+
 function App() {
     return (
         <div>
@@ -119,20 +121,34 @@ function App() {
 
             </div>
             {/* benefits section  ends  */}
-
             {/* features section  starts  */}
 
             <h1 className='benefitsHeading'>Why Smart ruppe</h1>
 
             <div className='flex-container1'>
-
                 <Feature icon={faBolt}
                     label="Fast"
-                    text="Send money within minutes"
+                    text="Transactions can be processed with in an hour and within minutes with special request"
+
+                />
+                <Feature icon={faShieldHalved}
+                    label="Secure"
+                    text="Now no worries about security, Safe transfer is guarantee"
+
+                />
+                <Feature icon={faMoneyBillTransfer}
+                    label="Send more"
+                    text="Send and receive 10k per day, cross limits with special request"
 
                 />
             </div>
             {/* features section  ends  */}
+
+            {/* Footer section starts */}
+            <Footer 
+            
+            />
+            {/* Footer section ends */}
 
         </div>
     )

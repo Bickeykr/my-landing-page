@@ -1,5 +1,5 @@
 import React from 'react';
-import SmartRuppeLogo from '../images/SmartRuppeLogo-removebg.png';
+import SmartRuppeLogo from '../images/SmartRuppeLogo-removebg1.png';
 
 
 

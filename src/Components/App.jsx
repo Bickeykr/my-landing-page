@@ -12,9 +12,12 @@ import Footer from './Footer';
 import SideImage from './SideImage';
 import HeroImage from '../images/HeroImage.png';
 import AboutImg from '../images/about1.svg';
+import IndianFlag from '../images/IndianFlag.png';
+import NepalFlag from '../images/NepalFlag.png';
 import Benefit1 from '../images/benefit1.svg';
 import Benefit2 from '../images/benefit2.svg';
 import Benefit3 from '../images/benefit3.svg';
+
 
 //Material UI components
 import Card from '@mui/material/Card';
@@ -36,7 +39,7 @@ function App() {
 
                 <SideText
 
-                    supportingCopy="Smart ruppe has brought a service using which you can send money to from Indian account to Nepali account and vice versa easily and quickly using your phone only."
+                    supportingCopy="Smart ruppe has brought a service using which you can send money to India from Nepal and receive money from India in Nepal Digitally."
                     buttonName="Get Started"
                 />
 
@@ -47,26 +50,30 @@ function App() {
             </div>
             {/* main section ends  */}
 
-            {/* about section starts  */}
+            {/* About section starts  */}
 
-            <div className='flex-container'>
+            <div className='flex-container' style={{ backgroundColor: "#effeff" }}>
                 <About
                     fontSize={{ fontSize: "3rem" }}
                     about="About"
 
-                    paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more from India or Nepal. Now without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
+                    paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more in India and also receive from them. without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
                 />
 
                 <SideImage
                     url={AboutImg}
                 />
             </div>
-            {/* about section ends  */}
+            {/* About section ends  */}
 
 
             {/* benefits section starts  */}
 
-            <h1 className='benefitsHeading'>Money Exchange Just got easy</h1>
+            <h1 className='benefitsHeading'>Money Exchange between
+                <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
+                <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
+                Just got easy
+            </h1>
 
             <div className='flex-container1'>
                 <Card className='card card1' >
@@ -97,7 +104,7 @@ function App() {
                         <Typography gutterBottom variant="h5" component="div">
                             Get money from others                        </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Now get money  from India in your Nepali account using mobile banking
+                            Now receive money from India in your Nepali account using mobile banking
                         </Typography>
                     </CardContent>
                 </Card>
@@ -121,33 +128,32 @@ function App() {
             </div>
             {/* benefits section  ends  */}
             {/* features section  starts  */}
+            <div style={{ backgroundColor: "#effeff" }}>
+                <h1 className='benefitsHeading'>Why Smart ruppe</h1>
 
-            <h1 className='benefitsHeading'>Why Smart ruppe</h1>
+                <div className='flex-container1'>
+                    <Feature icon={faBolt}
+                        label="Fast"
+                        text="Transactions can be processed with in an hour and within minutes with special request"
 
-            <div className='flex-container1'>
-                <Feature icon={faBolt}
-                    label="Fast"
-                    text="Transactions can be processed with in an hour and within minutes with special request"
+                    />
+                    <Feature icon={faShieldHalved}
+                        label="Secure"
+                        text="Now no worries about security, Safe transfer is guarantee"
 
-                />
-                <Feature icon={faShieldHalved}
-                    label="Secure"
-                    text="Now no worries about security, Safe transfer is guarantee"
-                     
 
-                />
-                <Feature icon={faMoneyBillTransfer}
-                    label="Send more"
-                    text="Send and receive 10k per day, cross limits with special request"
+                    />
+                    <Feature icon={faMoneyBillTransfer}
+                        label="Send more"
+                        text="Send and receive 10k per day, cross limits with special request"
 
-                />
+                    />
+                </div>
             </div>
             {/* features section  ends  */}
 
             {/* Footer section starts */}
-            <Footer
-
-            />
+            <Footer />
             {/* Footer section ends */}
 
         </div>

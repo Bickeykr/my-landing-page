@@ -5,6 +5,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import SideText from './SideText';
 import About from './About';
+import Feature from './Feature';
 
 //images
 import SideImage from './SideImage';
@@ -14,16 +15,15 @@ import Benefit1 from '../images/benefit1.svg';
 import Benefit2 from '../images/benefit2.svg';
 import Benefit3 from '../images/benefit3.svg';
 
-//Metarial UI components
+//Material UI components
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-{/* <CardActionArea>
-</CardActionArea> */}
 
-
+//Fontawesome 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faBolt } from '@fortawesome/free-solid-svg-icons';
 function App() {
     return (
         <div>
@@ -112,7 +112,7 @@ function App() {
                         <Typography gutterBottom variant="h5" component="div">
                             Pay to merchants                        </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Conduct businesses without worring about the mode of payment.
+                            Conduct businesses without worrying about the mode of payment.
                         </Typography>
                     </CardContent>
                 </Card>
@@ -125,7 +125,12 @@ function App() {
             <h1 className='benefitsHeading'>Why Smart ruppe</h1>
 
             <div className='flex-container1'>
-            
+
+                <Feature icon={faBolt}
+                    label="Fast"
+                    text="Send money within minutes"
+
+                />
             </div>
             {/* features section  ends  */}
 

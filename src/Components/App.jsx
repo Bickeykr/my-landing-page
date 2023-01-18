@@ -26,8 +26,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 //Fontawesome 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBolt, faSolid, faShieldHalved, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
+
+
+import { faBolt, faShieldHalved, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
     return (
@@ -52,7 +53,7 @@ function App() {
 
             {/* About section starts  */}
 
-            <div className='flex-container' style={{ backgroundColor: "#effeff" }}>
+            <div className='flex-container sectionBgColor' >
                 <About
                     fontSize={{ fontSize: "3rem" }}
                     about="About"
@@ -128,7 +129,7 @@ function App() {
             </div>
             {/* benefits section  ends  */}
             {/* features section  starts  */}
-            <div style={{ backgroundColor: "#effeff" }}>
+            <div className='sectionBgColor' >
                 <h1 className='benefitsHeading'>Why Smart ruppe</h1>
 
                 <div className='flex-container1'>

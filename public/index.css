@@ -1,12 +1,4 @@
-/* @media (min-width: 768px) {
-  .container {
-    display: flex;
-  }
-} */
-
-/* * {
-  border: 1px black solid;
-} */
+/* Mobile first styling approach used */
 
 /* imported google fonts starts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
@@ -17,58 +9,45 @@
 
 :root {
   --paragraphColor: rgb(108, 108, 108);
+  --themeColor: #effeff;
 }
-
 body {
   margin: 0;
-  /* border: 5px solid orange; */
 }
-
 .paragraphText {
   color: var(--paragraphColor);
   font-family: sans-serif;
   text-align: justify;
 }
-/* Global styling  starts*/
+.sectionBgColor {
+  background-color: var(--themeColor);
+}
+/* Global styling  ends*/
+
+/* Default styling */
+
 /* NavBar.jsx styling starts*/
 .navDiv {
-  background-color: #effcff;
+  background-color: var(--themeColor);
   box-shadow: 0px 0px 5px 3px rgb(220, 219, 219);
-  width: 100%;
 }
 
 .navLogo {
-  height: 5rem;
-  margin-left: 5rem;
+  height: 4.5rem;
+  margin-left: 1rem;
   padding: 0.2rem;
 }
 
 /* NavBar.jsx styling ends*/
-
 /* SideText.jsx styling starts */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.sideText {
-  flex-basis: 30%;
-  flex: 1;
-  padding: 0 0 15rem 0;
-  /* border: 1px black solid; */
-}
 
 .heroText {
-  width: 70%;
-  margin: 9rem 0 0 11rem;
+  margin: 2rem;
 }
 
 .sideText h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 3.3rem;
-  padding: 0%;
-  margin: 0%;
+  font-size: 3.1rem;
 }
 
 .sideText button {
@@ -94,98 +73,160 @@ body {
 }
 /* SideText.jsx styling ends */
 
-/* SideImage.jsx styling starts */
+/* For big screens styling */
 
-.sideImage {
-  flex-basis: 50%;
-  flex: 1;
-}
+@media only screen and (min-width: 1024px) {
+  /* NavBar.jsx styling starts*/
 
-.sideImage img {
-  width: 40rem;
-  padding: 1rem;
-}
+  .navLogo {
+    height: 5rem;
+    margin-left: 5rem;
+  }
 
-/* SideImage.jsx styling ends */
+  /* NavBar.jsx styling ends*/
 
-/* benefits section styling starts */
-.benefitsHeading {
-  font-family: "Roboto", sans-serif;
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 5rem;
-}
+  /* SideText.jsx styling starts */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.flex-container1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .sideText {
+    flex-basis: 30%;
+    flex: 1;
+    padding: 0 0 15rem 0;
+  }
 
-.card {
-  flex-basis: 20%;
-  margin: 4rem;
-}
+  .heroText {
+    width: 70%;
+    margin: 9rem 0 0 11rem;
+  }
 
-/* benefits section styling ends */
+  .sideText h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.3rem;
+    padding: 0%;
+    margin: 0%;
+  }
 
-/* Features section styling starts */
-.featureDiv {
-  text-align: center;
-  margin: 1rem;
-  flex-basis: 20%;
-  padding: 1rem;
-}
-.featureIcon {
-  font-size: 4rem;
-  color: #046db5;
-}
-.featureHeading {
-  font-size: 2rem;
-  font-family: "Roboto", sans-serif;
-  margin: 1rem 0;
-}
+  .sideText button {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    background-color: #046db5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 0;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    margin-top: 1.5rem;
+  }
 
-/* Features section styling ends */
+  .sideText button:hover {
+    background-color: #2b81bb;
+  }
+  .flagImg {
+    width: 3rem;
+  }
+  /* SideText.jsx styling ends */
 
-/* Footer section styling starts */
-.footerDiv {
-  width: 100%;
-  height: 14rem;
-  justify-content: space-around;
-}
-.footerLogo {
-  margin-top: 1rem;
-}
-.footerImg {
-  height: 8rem;
-  margin: 0;
-}
-.copyRightText {
-  margin-top: 0;
-  font-size: 0.8rem;
-  width: 13rem;
-  text-align: left;
-}
+  /* SideImage.jsx styling starts */
 
-.contactHead {
-  font-size: 1.7rem;
-  font-family: "Roboto", sans-serif;
-  margin-top: 1rem;
-}
-.socialIcon {
-  text-decoration: none;
-  font-size: 1.5rem;
-  margin-right: 1rem;
-  color: #046db5;
-}
+  .sideImage {
+    flex-basis: 50%;
+    flex: 1;
+  }
 
-.socialIcon:hover {
-  color: #2b81bb;
-}
+  .sideImage img {
+    width: 40rem;
+    padding: 1rem;
+  }
 
-.myTwitter {
-  text-decoration: none;
-  color: inherit;
+  /* SideImage.jsx styling ends */
+
+  /* benefits section styling starts */
+  .benefitsHeading {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    flex-basis: 20%;
+    margin: 4rem;
+  }
+
+  /* benefits section styling ends */
+
+  /* Features section styling starts */
+  .featureDiv {
+    text-align: center;
+    margin: 1rem;
+    flex-basis: 20%;
+    padding: 1rem;
+  }
+  .featureIcon {
+    font-size: 4rem;
+    color: #046db5;
+  }
+  .featureHeading {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin: 1rem 0;
+  }
+
+  /* Features section styling ends */
+
+  /* Footer section styling starts */
+  .footerDiv {
+    width: 100%;
+    height: 14rem;
+    justify-content: space-around;
+  }
+  .footerLogo {
+    margin-top: 1rem;
+  }
+  .footerImg {
+    height: 8rem;
+    margin: 0;
+  }
+  .copyRightText {
+    margin-top: 0;
+    font-size: 0.8rem;
+    width: 13rem;
+    text-align: left;
+  }
+
+  .contactHead {
+    font-size: 1.7rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+  }
+  .socialIcon {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #046db5;
+  }
+
+  .socialIcon:hover {
+    color: #2b81bb;
+  }
+
+  .myTwitter {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* Footer section styling ends */
 }
-/* Footer section styling ends */

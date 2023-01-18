@@ -11,15 +11,15 @@ function Footer() {
     <div className='footerDiv flex-container1'>
       <div className='footerLogo'  >
         <img className='footerImg' src={SmartRuppeLogo} alt="Smart Ruppe logo" />
-        <p className='paragraphText copyRightText  '> ©️ {CURRENTYEAR} Smart ruppe All rights reserved</p>
+        <p className='paragraphText copyRightText  '> <span role="img" aria-label="icon"> ©️ </span>  {CURRENTYEAR} Smart ruppe All rights reserved</p>
       </div>
 
       <div className='footerContact' >
         <h1 className='contactHead'>Contact</h1>
-        <a href="#" className='socialIcon'><FontAwesomeIcon icon={faTwitter} ></FontAwesomeIcon></a>
-        <a href="#" className='socialIcon'><FontAwesomeIcon icon={faYoutube} ></FontAwesomeIcon></a>
+        <a href="#button" className='socialIcon'><FontAwesomeIcon icon={faTwitter} ></FontAwesomeIcon></a>
+        <a href="#button" className='socialIcon'><FontAwesomeIcon icon={faYoutube} ></FontAwesomeIcon></a>
 
-        <p className='paragraphText' >Made with ❤️ by <a className='myTwitter' href="https://twitter.com/Bickey_kr" target="_blank">Bickey</a> </p>
+        <p className='paragraphText' >Made with<span role="img" aria-label="icon"> ❤️ </span>   by <a className='myTwitter' href="https://twitter.com/Bickey_kr" target="_blank" rel="noopener noreferrer">Bickey</a> </p>
       </div>
     </div>
   )

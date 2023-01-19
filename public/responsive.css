@@ -3,7 +3,7 @@
 @media only screen and (min-width: 1024px) {
   /* NavBar.jsx styling starts*/
   .navLogo {
-    height: 5rem;
+    height: 5.5rem;
     margin-left: 5rem;
   }
   /* NavBar.jsx styling ends*/
@@ -73,7 +73,7 @@
   .featureDiv {
     flex-basis: 20%;
     padding: 2rem;
-  } 
+  }
   /* Features section styling ends */
 
   /* Footer section styling starts */
@@ -84,42 +84,10 @@
     text-align: left;
   }
 
-  .footerLogo {
-    margin-top: 1rem;
-  }
-
-  .footerImg {
-    height: 8rem;
-    margin: 0;
-  }
-
   .copyRightText {
-    margin-top: 0;
-    font-size: 0.8rem;
     width: 13rem;
     text-align: left;
   }
 
-  .contactHead {
-    font-size: 1.7rem;
-    font-family: var(--headingFontFamily);
-    margin-top: 1rem;
-  }
-
-  .socialIcon {
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    color: #046db5;
-  }
-
-  .socialIcon:hover {
-    color: #2b81bb;
-  }
-
-  .myTwitter {
-    text-decoration: none;
-    color: inherit;
-  }
   /* Footer section styling ends */
 }

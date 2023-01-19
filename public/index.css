@@ -80,16 +80,15 @@ body {
 /* SideText.jsx styling ends */
 
 /* SideImage.jsx styling starts */
-
-.sideImage img {
+.sideImage {
   width: 100%;
 }
-
 /* SideImage.jsx styling ends */
 
 /* About section styling starts */
 .aboutHead {
   padding-top: 2rem;
+  font-size: 3rem;
 }
 /* About section styling ends */
 
@@ -125,6 +124,10 @@ body {
   font-size: 2rem;
   font-family: var(--headingFontFamily);
   margin: 1rem 0;
+}
+
+.featureParagraph{
+  text-align: center;
 }
 /* Features section styling ends */
 

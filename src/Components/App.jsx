@@ -26,20 +26,17 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
 //Fontawesome 
-
-
 import { faBolt, faShieldHalved, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
     return (
         <div>
             <Navbar />
-            {/* main section starts  */}
 
+            {/* main section starts  */}
             <div className='flex-container'>
 
                 <SideText
-
                     supportingCopy="Smart ruppe has brought a service using which you can send money to India from Nepal and receive money from India in Nepal Digitally."
                     buttonName="Get Started"
                 />
@@ -52,10 +49,8 @@ function App() {
             {/* main section ends  */}
 
             {/* About section starts  */}
-
             <div className='flex-container sectionBgColor' >
                 <About
-                    fontSize={{ fontSize: "3rem" }}
                     about="About"
 
                     paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more in India and also receive from them. without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
@@ -67,17 +62,15 @@ function App() {
             </div>
             {/* About section ends  */}
 
-
             {/* benefits section starts  */}
-
             <h1 className='benefitsHeading'>Money Exchange between
-                <img className='fImg flagImg' src={NepalFlag} alt="NepalFlag" />
-                <img className='fImg flagImg' src={IndianFlag} alt="IndianFlag" />
+                <img className='fImg' src={NepalFlag} alt="NepalFlag" />
+                <img className='fImg' src={IndianFlag} alt="IndianFlag" />
                 Just got easy
             </h1>
 
             <div className='flex-container1'>
-                <Card className='card card1' >
+                <Card className='card' >
                     <CardMedia
                         component="img"
                         height="200"
@@ -94,7 +87,7 @@ function App() {
                     </CardContent>
                 </Card>
 
-                <Card className='card card2'  >
+                <Card className='card  '  >
                     <CardMedia
                         component="img"
                         height="200"
@@ -110,7 +103,7 @@ function App() {
                     </CardContent>
                 </Card>
 
-                <Card className='card card3' >
+                <Card className='card  ' >
                     <CardMedia
                         component="img"
                         height="200"
@@ -128,6 +121,7 @@ function App() {
 
             </div>
             {/* benefits section  ends  */}
+
             {/* features section  starts  */}
             <div className='sectionBgColor' >
                 <h1 className='benefitsHeading'>Why Smart ruppe</h1>
@@ -136,18 +130,16 @@ function App() {
                     <Feature icon={faBolt}
                         label="Fast"
                         text="Transactions can be processed with in an hour and within minutes with special request"
-
                     />
+
                     <Feature icon={faShieldHalved}
                         label="Secure"
                         text="Now no worries about security, Safe transfer is guarantee"
-
-
                     />
+
                     <Feature icon={faMoneyBillTransfer}
                         label="Send more"
                         text="Send and receive 10k per day, cross limits with special request"
-
                     />
                 </div>
             </div>

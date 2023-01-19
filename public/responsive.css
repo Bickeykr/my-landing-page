@@ -40,12 +40,12 @@
   /* SideText.jsx styling ends */
 
   /* SideImage.jsx styling starts */
-  .sideImage {
+  .sideImageDiv {
     flex-basis: 50%;
     flex: 1;
   }
 
-  .sideImage img {
+  .sideImage {
     width: 40rem;
     padding: 1rem;
   }
@@ -58,7 +58,7 @@
     margin-bottom: 5rem;
   }
 
-  .flagImg {
+  .fImg {
     width: 2.8rem;
   }
 

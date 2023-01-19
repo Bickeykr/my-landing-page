@@ -71,8 +71,8 @@ function App() {
             {/* benefits section starts  */}
 
             <h1 className='benefitsHeading'>Money Exchange between
-                <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
-                <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
+                <img className='fImg' src={NepalFlag} alt="NepalFlag" />
+                <img className='fImg' src={IndianFlag} alt="IndianFlag" />
                 Just got easy
             </h1>
 

@@ -34,7 +34,7 @@ function App() {
             <Navbar />
 
             {/* main section starts  */}
-            <div className='flex-container'>
+            <div className='flex-container displayFlexAndWrap'>
 
                 <SideText
                     supportingCopy="Smart ruppe has brought a service using which you can send money to India from Nepal and receive money from India in Nepal Digitally."
@@ -49,7 +49,7 @@ function App() {
             {/* main section ends  */}
 
             {/* About section starts  */}
-            <div className='flex-container sectionBgColor' >
+            <div className='flex-container displayFlexAndWrap sectionBgColor' >
                 <About
                     about="About"
 
@@ -63,13 +63,13 @@ function App() {
             {/* About section ends  */}
 
             {/* benefits section starts  */}
-            <h1 className='benefitsHeading'>Money Exchange between
+            <h1 className='benefitsHeading textCenter'>Money Exchange between
                 <img className='fImg' src={NepalFlag} alt="NepalFlag" />
                 <img className='fImg' src={IndianFlag} alt="IndianFlag" />
                 Just got easy
             </h1>
 
-            <div className='flex-container1'>
+            <div className='flex-container1 displayFlexAndWrap'>
                 <Card className='card' >
                     <CardMedia
                         component="img"
@@ -124,9 +124,9 @@ function App() {
 
             {/* features section  starts  */}
             <div className='sectionBgColor' >
-                <h1 className='benefitsHeading'>Why Smart ruppe</h1>
+                <h1 className='benefitsHeading textCenter'>Why Smart ruppe</h1>
 
-                <div className='flex-container1'>
+                <div className='flex-container1 displayFlexAndWrap'>
                     <Feature icon={faBolt}
                         label="Fast"
                         text="Transactions can be processed with in an hour and within minutes with special request"

@@ -8,10 +8,8 @@ function Navbar() {
         <div className='navDiv'  >
             <nav>
                 <img className='navLogo' src={SmartRuppeLogo} alt="SmartRuppeLogo" />
-                
             </nav>
         </div>
-
     )
 }
 

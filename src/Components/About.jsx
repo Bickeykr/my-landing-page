@@ -2,9 +2,9 @@ import React from 'react';
 
 function About(props) {
     return (
-        <div className='sideText'>
-            <div className='heroText'>
-                <h1 className='aboutHead'> {props.about}</h1>
+        <div className='sideTextDiv'>
+            <div className='heroTextDiv'>
+                <h1 className=' sideTextDivH1 aboutHead'> {props.about}</h1>
                 <p className='paragraphText'>{props.paragraph}</p>
 
             </div>

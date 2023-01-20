@@ -2,11 +2,9 @@
 
 /* imported google fonts starts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-
 /* imported google fonts ends */
 
 /* Global styling  starts*/
-
 /* Variables */
 :root {
   --paragraphColor: rgb(108, 108, 108);
@@ -27,6 +25,10 @@ body {
 .sectionBgColor {
   background-color: var(--themeColor);
 }
+
+.textCenter {
+  text-align: center;
+}
 /* Global styling  ends*/
 
 /* Default styling */
@@ -46,16 +48,16 @@ body {
 /* NavBar.jsx styling ends*/
 /* SideText.jsx styling starts */
 
-.heroText {
+.heroTextDiv {
   margin: 2rem;
 }
 
-.sideText h1 {
+.sideTextDivH1 {
   font-family: var(--headingFontFamily);
   font-size: 3.1rem;
 }
 
-.sideText button {
+.getStartedBtn {
   width: 100%;
   height: 3rem;
   border-radius: 0.4rem;
@@ -70,7 +72,7 @@ body {
   margin-top: 1.5rem;
 }
 
-.sideText button:hover {
+.getStartedBtn:hover {
   background-color: #2b81bb;
 }
 
@@ -96,7 +98,6 @@ body {
 .benefitsHeading {
   font-family: var(--headingFontFamily);
   font-size: 2.2rem;
-  text-align: center;
   padding: 2rem;
 }
 
@@ -111,7 +112,6 @@ body {
 
 /* Features section styling starts */
 .featureDiv {
-  text-align: center;
   padding: 2rem 4rem;
 }
 
@@ -126,15 +126,9 @@ body {
   margin: 1rem 0;
 }
 
-.featureParagraph{
-  text-align: center;
-}
 /* Features section styling ends */
 
 /* Footer section styling starts */
-.textCenter {
-  text-align: center;
-}
 
 .footerLogo {
   margin-top: 1rem;
@@ -148,7 +142,6 @@ body {
 .copyRightText {
   margin-top: 0;
   font-size: 0.8rem;
-  text-align: center;
 }
 
 .contactHead {

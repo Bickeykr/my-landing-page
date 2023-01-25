@@ -4,8 +4,8 @@ import React from 'react';
 import SmartRuppeLogo from '../images/SmartRuppeLogo-removebg.png';
 
 //FontAwesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const CURRENTYEAR = new Date().getFullYear();
 

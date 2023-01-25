@@ -1,4 +1,7 @@
 
+# This is a landing page source code of smartruppe.info
+
+
 
 ## Might be Useful Available Scripts
 

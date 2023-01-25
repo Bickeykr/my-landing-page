@@ -11,18 +11,18 @@ const CURRENTYEAR = new Date().getFullYear();
 
 function Footer() {
   return (
-    <div className='footerDiv flex-container1 displayFlexAndWrap  textCenter'>
+    <div className='footerDiv flex-container1 displayFlexAndWrap textCenter'>
       <div className='footerLogo' >
         <img className='footerImg' src={SmartRuppeLogo} alt="Smart Ruppe logo" />
         <p className='paragraphText copyRightText textCenter  '> <span role="img" aria-label="icon"> ©️ </span>  {CURRENTYEAR} Smart ruppe All rights reserved</p>
       </div>
 
-      <div >
+      {/* <div >
         <h1 className='contactHead'>Contact</h1>
         <a href="#button" className='socialIcon'><FontAwesomeIcon icon={faTwitter} ></FontAwesomeIcon></a>
         <a href="#button" className='socialIcon'><FontAwesomeIcon icon={faYoutube} ></FontAwesomeIcon></a>
         <p className='paragraphText textCenter' >Made with<span role="img" aria-label="icon"> ❤️ </span>   by <a className='myTwitter' href="https://twitter.com/Bickey_kr" target="_blank" rel="noopener noreferrer">Bickey</a> </p>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -4,6 +4,9 @@ import React from 'react';
 import IndianFlag from '../images/IndianFlag.png';
 import NepalFlag from '../images/NepalFlag.png';
 
+//components 
+import MailchimpFormContainer from './/MailchimpFormContainer';
+
 function SideText(props) {
     return (
 
@@ -14,7 +17,10 @@ function SideText(props) {
                     <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
                 </h1>
                 <p className='paragraphText'>{props.supportingCopy}</p>
-                <button className='getStartedBtn' type="submit" >{props.buttonName}</button>
+                <MailchimpFormContainer />
+
+                {/* <button className='getStartedBtn' type="submit" >{props.buttonName}</button> */}
+                
             </div>
         </div>
 

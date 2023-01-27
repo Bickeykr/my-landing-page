@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
+
+//Dependencies imports
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+//components imports
 import InputField from './InputField';
 
 const CustomForm = ({ status, message, onValidated }) => {
@@ -38,11 +42,12 @@ const CustomForm = ({ status, message, onValidated }) => {
                 />
             )}
             {status === "success" && (
-                <div
-                    dangerouslySetInnerHTML={{ __html: message }}
-                />
+                <div>
+                    Sent
+                </div>
+
             )}
-            <div  >
+            <div>
                 <InputField
                     onChangeHandler={setEmail}
                     type="email"
@@ -50,13 +55,13 @@ const CustomForm = ({ status, message, onValidated }) => {
                     placeholder="Enter your email to Get Started"
                     isRequired
                 />
-            </div>
 
-            <InputField
-                label="Get Started"
-                type="submit"
-                formValues={[email]}
-            />
+                <InputField
+                    label="Get Started"
+                    type="submit"
+                    formValues={[email]}
+                />
+            </div>
         </form>
     );
 };
@@ -68,7 +73,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 const MailchimpFormContainer = props => {
     const postUrl = `https://gmail.us13.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
     return (
-        <div  >
+        <div>
             <MailchimpSubscribe
                 url={postUrl}
                 render={({ subscribe, status, message }) => (

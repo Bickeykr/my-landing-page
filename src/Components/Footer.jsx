@@ -11,7 +11,7 @@ const CURRENTYEAR = new Date().getFullYear();
 
 function Footer() {
   return (
-    <div className='footerDiv flex-container1 displayFlexAndWrap textCenter'>
+    <div className='footerDiv flex-container1 displayFlexAndWrap textCenter sectionBgColor'>
       <div className='footerLogo' >
         <img className='footerImg' src={SmartRuppeLogo} alt="Smart Ruppe logo" />
         <p className='paragraphText copyRightText textCenter  '> <span role="img" aria-label="icon"> ©️ </span>  {CURRENTYEAR} Smart ruppe All rights reserved</p>

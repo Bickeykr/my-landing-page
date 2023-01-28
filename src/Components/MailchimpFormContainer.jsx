@@ -52,7 +52,7 @@ const CustomForm = ({ status, message, onValidated }) => {
                     onChangeHandler={setEmail}
                     type="email"
                     value={email}
-                    placeholder="Enter your email to Get Started"
+                    placeholder="Enter your email to know more."
                     isRequired
                 />
 

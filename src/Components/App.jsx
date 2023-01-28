@@ -27,6 +27,7 @@ import Typography from '@mui/material/Typography';
 
 //Fontawesome 
 import { faBolt, faShieldHalved, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
+import MailchimpFormContainer from './MailchimpFormContainer';
 
 function App() {
     return (
@@ -36,10 +37,7 @@ function App() {
             {/* main section starts  */}
             <div className='flex-container displayFlexAndWrap'>
 
-                <SideText
-                    supportingCopy="Smart ruppe has brought a service using which you can send money to India from Nepal and receive money from India in Nepal Digitally."
-                    buttonName="Get Started"
-                />
+                <SideText />
 
                 <SideImage
                     url={HeroImage}
@@ -52,8 +50,6 @@ function App() {
             <div className='flex-container displayFlexAndWrap sectionBgColor' >
                 <About
                     about="About"
-
-                    paragraph="Smart ruppe has brought a service using which you can send money to your loved ones, merchants, and more in India and also receive from them. without any trouble of you going to banks or exchange houses simply with few clicks on your phone or other devices."
                 />
 
                 <SideImage
@@ -66,7 +62,7 @@ function App() {
             <h1 className='benefitsHeading textCenter'>Money Exchange between
                 <img className='fImg' src={NepalFlag} alt="NepalFlag" />
                 <img className='fImg' src={IndianFlag} alt="IndianFlag" />
-                Just got easy
+                Just got easy & free
             </h1>
 
             <div className='flex-container1 displayFlexAndWrap'>
@@ -129,7 +125,7 @@ function App() {
                 <div className='flex-container1 displayFlexAndWrap'>
                     <Feature icon={faBolt}
                         label="Fast"
-                        text="Transactions can be processed with in an hour and within minutes with special request"
+                        text="Transactions will be processed within seconds "
                     />
 
                     <Feature icon={faShieldHalved}
@@ -139,11 +135,21 @@ function App() {
 
                     <Feature icon={faMoneyBillTransfer}
                         label="Send more"
-                        text="Send and receive 10k per day, cross limits with special request"
+                        text="No transaction limits send/receive as much as you want"
                     />
                 </div>
             </div>
             {/* features section  ends  */}
+            
+            {/* Get Started section starts */}
+            <div style={{paddingBottom:" 2rem"}} >
+                <h1 className='benefitsHeading textCenter'>Get Started</h1>
+
+                <div className='getStartedDiv' >
+                     <MailchimpFormContainer/>
+                </div>
+            </div>
+            {/* Get Started section ends */}
 
             {/* Footer section starts */}
             <Footer />

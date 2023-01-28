@@ -47,8 +47,8 @@ const CustomForm = ({ status, message, onValidated }) => {
                 </div>
 
             )}
-            <div>
-                <InputField
+            <div className='displayFlexAndWrap  '>
+                <InputField 
                     onChangeHandler={setEmail}
                     type="email"
                     value={email}

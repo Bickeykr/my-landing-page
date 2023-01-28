@@ -142,8 +142,8 @@ function App() {
             {/* features section  ends  */}
             
             {/* Get Started section starts */}
-            <div style={{paddingBottom:" 2rem"}} >
-                <h1 className='benefitsHeading textCenter'>Get Started</h1>
+            <div  >
+                <h1 className='benefitsHeading getStartedText textCenter'>Get Started</h1>
 
                 <div className='getStartedDiv' >
                      <MailchimpFormContainer/>

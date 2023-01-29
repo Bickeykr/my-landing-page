@@ -12,7 +12,7 @@ function SideText() {
 
         <div className='sideTextDiv'>
             <div className='heroTextDiv'>
-                <h1 className='sideTextDivH1'>Send/Receive money with few clicks on your phone
+                <h1 className='sideTextDivH1'>Send & Receive money with few clicks on your phone
                     <img className='flagImg' src={NepalFlag} alt="NepalFlag" />
                     <img className='flagImg' src={IndianFlag} alt="IndianFlag" />
                 </h1>

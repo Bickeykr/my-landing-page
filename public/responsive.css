@@ -37,12 +37,12 @@
   }
 
   .inputFieldField {
-    width: 23rem;
+    width: 60%;
   }
 
   .getStartedBtn {
-    width: 9rem;
-    margin-left: 1.5rem;
+    width: 30%;
+    margin-left: 1rem;
   }
 
   /* SideText.jsx styling ends */
@@ -90,25 +90,24 @@
   /* Get Started  section styling starts */
   .getStartedDiv {
     margin: auto;
-    width: 35%;
+    width: 32%;
     padding-bottom: 2rem;
   }
 
-  .getStartedText{
+  .getStartedText {
     margin-bottom: 0;
   }
   /* Get Started  section styling ends */
   /* Footer section styling starts */
   .footerDiv {
     width: 100%;
-    height: 14rem;
     justify-content: center;
-    text-align: left;
   }
 
   .copyRightText {
-    width: 13rem;
-    text-align: left;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 0;
   }
   /* Footer section styling ends */
 }

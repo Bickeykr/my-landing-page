@@ -69,7 +69,7 @@ function App() {
                 <Card className='card' >
                     <CardMedia
                         component="img"
-                        height="200"
+                        height="200" 
                         image={Benefit1}
                         alt="benefit1"
                     />

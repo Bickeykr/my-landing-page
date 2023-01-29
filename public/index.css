@@ -15,6 +15,8 @@
 body {
   margin: 0;
   padding: 0;
+  /* overflow-x: hidden; */
+
 }
 
 .paragraphText {
@@ -68,7 +70,7 @@ body {
   background-color: white;
   color: black;
   outline: none;
- }
+}
 
 ::placeholder {
   color: var(--paragraphColor);
@@ -100,7 +102,7 @@ body {
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
   cursor: pointer;
   margin: 0.8rem 0;
- }
+}
 
 .getStartedBtn:hover {
   background-color: #2b81bb;
@@ -138,6 +140,11 @@ body {
 .card {
   margin: 2rem;
 }
+
+.card img {
+  width: auto;
+}
+
 /* benefits section styling ends */
 
 /* Features section styling starts */
@@ -165,7 +172,6 @@ body {
 }
 /* Get Started  section styling ends */
 /* Footer section styling starts */
- 
 
 .footerImg {
   height: 8rem;

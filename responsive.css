@@ -36,8 +36,13 @@
     margin: 0%;
   }
 
+  .inputFieldField {
+    width: 60%;
+  }
+
   .getStartedBtn {
-    width: 9rem;
+    width: 30%;
+    margin-left: 1rem;
   }
 
   /* SideText.jsx styling ends */
@@ -57,8 +62,8 @@
   /* benefits section styling starts */
   .benefitsHeading {
     font-size: 3rem;
-    padding-top: 1rem;
     margin-bottom: 5rem;
+    margin-top: 0;
   }
 
   .fImg {
@@ -82,17 +87,27 @@
   }
   /* Features section styling ends */
 
+  /* Get Started  section styling starts */
+  .getStartedDiv {
+    margin: auto;
+    width: 32%;
+    padding-bottom: 2rem;
+  }
+
+  .getStartedText {
+    margin-bottom: 0;
+  }
+  /* Get Started  section styling ends */
   /* Footer section styling starts */
   .footerDiv {
     width: 100%;
-    height: 14rem;
-    justify-content: space-around;
-    text-align: left;
+    justify-content: center;
   }
 
   .copyRightText {
-    width: 13rem;
-    text-align: left;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 0;
   }
   /* Footer section styling ends */
 }

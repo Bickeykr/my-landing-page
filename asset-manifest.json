@@ -1,8 +1,8 @@
 {
-  "main.js": "/static/js/main.b53fca1c.chunk.js",
-  "main.js.map": "/static/js/main.b53fca1c.chunk.js.map",
-  "static/js/1.e609b603.chunk.js": "/static/js/1.e609b603.chunk.js",
-  "static/js/1.e609b603.chunk.js.map": "/static/js/1.e609b603.chunk.js.map",
+  "main.js": "/static/js/main.c626a8dd.chunk.js",
+  "main.js.map": "/static/js/main.c626a8dd.chunk.js.map",
+  "static/js/1.7e24d7fa.chunk.js": "/static/js/1.7e24d7fa.chunk.js",
+  "static/js/1.7e24d7fa.chunk.js.map": "/static/js/1.7e24d7fa.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/SmartRuppeLogo-removebg1.png": "/static/media/SmartRuppeLogo-removebg1.f4676127.png",
@@ -13,6 +13,6 @@
   "static/media/benefit2.svg": "/static/media/benefit2.880aa74c.svg",
   "static/media/benefit3.svg": "/static/media/benefit3.d0956a19.svg",
   "index.html": "/index.html",
-  "precache-manifest.127d36a44fc650df88b00efe7ee7b22b.js": "/precache-manifest.127d36a44fc650df88b00efe7ee7b22b.js",
+  "precache-manifest.780671ab8eccb8909d4258f9e059acc6.js": "/precache-manifest.780671ab8eccb8909d4258f9e059acc6.js",
   "service-worker.js": "/service-worker.js"
 }

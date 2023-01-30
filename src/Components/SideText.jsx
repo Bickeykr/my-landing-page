@@ -19,7 +19,7 @@ function SideText() {
                 <p className='paragraphText'>
                     Smart ruppe has brought a service using which you can send money to India from Nepal and receive money from India in Nepal Digitally   <b>  with 0 extra charges.</b>
                 </p>
-                <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+                {/* <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode sir.</small> */}
                 <MailchimpFormContainer />
 
 

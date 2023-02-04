@@ -92,9 +92,10 @@ function App() {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Get money from others                        </Typography>
+                            Get money from others                        
+                            </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Now receive money from India in your Nepali account using mobile banking
+                            Now, receive money from India in your Nepali account using mobile banking
                         </Typography>
                     </CardContent>
                 </Card>

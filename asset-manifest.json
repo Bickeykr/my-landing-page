@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.342c8c99.js",
+    "main.js": "/static/js/main.9bf49be3.js",
     "static/media/HeroImage.png": "/static/media/HeroImage.ba246e2b36a0a87b62cc.png",
     "static/media/about1.svg": "/static/media/about1.f54b9f5f7519a0927409d12b835d4114.svg",
     "static/media/SmartRuppeLogo-removebg.png": "/static/media/SmartRuppeLogo-removebg.0a6b4f2d815b4cb12040.png",
@@ -9,9 +9,9 @@
     "static/media/benefit1.svg": "/static/media/benefit1.e29d4564e81de8bd9e948cb961a96b59.svg",
     "static/media/benefit2.svg": "/static/media/benefit2.475df5a624dbe503ca2a7d6b5d33307e.svg",
     "index.html": "/index.html",
-    "main.342c8c99.js.map": "/static/js/main.342c8c99.js.map"
+    "main.9bf49be3.js.map": "/static/js/main.9bf49be3.js.map"
   },
   "entrypoints": [
-    "static/js/main.342c8c99.js"
+    "static/js/main.9bf49be3.js"
   ]
 }

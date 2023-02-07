@@ -47,7 +47,7 @@ function App() {
             {/* main section ends  */}
 
             {/* About section starts  */}
-            <div className='flex-container displayFlexAndWrap sectionBgColor' >
+            <div className='flex-container displayFlexAndWrap sectionBgColor' id='about' >
                 <About
                     about="About"
                 />
@@ -59,6 +59,7 @@ function App() {
             {/* About section ends  */}
 
             {/* benefits section starts  */}
+            <div id='benefits'>
             <h1 className='benefitsHeading textCenter'>Money Exchange between
                 <img className='fImg' src={NepalFlag} alt="NepalFlag" />
                 <img className='fImg' src={IndianFlag} alt="IndianFlag" />
@@ -69,7 +70,7 @@ function App() {
                 <Card className='card' >
                     <CardMedia
                         component="img"
-                        height="200" 
+                        height="200"
                         image={Benefit1}
                         alt="benefit1"
                     />
@@ -92,8 +93,8 @@ function App() {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Get money from others                        
-                            </Typography>
+                            Get money from others
+                        </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Now, receive money from India in your Nepali account using mobile banking
                         </Typography>
@@ -116,6 +117,7 @@ function App() {
                     </CardContent>
                 </Card>
 
+            </div>
             </div>
             {/* benefits section  ends  */}
 
@@ -141,13 +143,13 @@ function App() {
                 </div>
             </div>
             {/* features section  ends  */}
-            
+
             {/* Get Started section starts */}
-            <div  >
+            <div id='getStarted' >
                 <h1 className='benefitsHeading getStartedText textCenter'>Get Started</h1>
 
                 <div className='getStartedDiv' >
-                     <MailchimpFormContainer/>
+                    <MailchimpFormContainer />
                 </div>
             </div>
             {/* Get Started section ends */}
